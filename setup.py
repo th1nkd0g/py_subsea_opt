@@ -12,13 +12,14 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
-    version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    name='py_subsea_opt',
+    version='0.0.1',
+    description='Package for Submarine Cable System Development and Deployment',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Mitsunobu Iwasaki',
+    author_email='mi2.postbox@gmail.com',
+    install_requires=['numpy'],
+    url='https://github.com/th1nkd0g/py_subsea_opt',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
